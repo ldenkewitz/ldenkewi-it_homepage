@@ -1,0 +1,24 @@
+{
+  "name": "ldenkewi-it_homepage",
+  "version": "1.0.0",
+  "description": "my homepage",
+  "main": "bad_child.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lars Denkewitz",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-if": "^2.0.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7"
+  },
+  "keywords": [
+    "Lars Denkewitz",
+    "Homepage",
+    "ldenkewi-it"
+  ]
+}
