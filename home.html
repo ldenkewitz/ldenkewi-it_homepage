@@ -37,7 +37,7 @@
       <button type="button" class="btn btn-lg btn-link">Link</button>
     </p>
 
-    <br/>
+    <hr class="subfeaturette-divider" />
 
     <h2>work with the grid</h2>
 
@@ -59,6 +59,8 @@
       <div class="col-lg-1 col-sm-3 bg-danger">13</div>
     </div>
     
+    <hr class="subfeaturette-divider" />
+
     <h2>nesting the grid</h2>
     
     .row>.col-lg-6.bg-success>p{this is an outer div}+.col-lg-12.bg-primary>p{this in an inner div}
@@ -98,7 +100,8 @@
       </div>
     </div>
 
-    <br/><br/>
+    <hr class="subfeaturette-divider" />
+
     <h2>push and pull</h2>
   
     .row>.col-md-4.bg-danger{column 1}+.col-md-8.col-success{column 2}
@@ -109,6 +112,8 @@
       <div class="col-md-4 col-md-push-8 bg-danger">left - column 1</div>
       <div class="col-md-8 col-md-pull-4 col-success">right - column 2</div>
     </div>
+
+    <hr class="subfeaturette-divider" />
 
     <h2>Typography</h2>
 
@@ -147,8 +152,293 @@
           <footer>someone famous said this</footer>
         </blockquote>
       </div>
-
     </div>
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Tables</h2>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <table class="table table-hover">
+          <tr class="success">
+            <td>001</td>
+            <td>002</td>
+            <td>003</td>
+            <td>004</td>
+            <td>005</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>002</td>
+            <td>003</td>
+            <td>004</td>
+            <td>005</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>002</td>
+            <td>003</td>
+            <td>004</td>
+            <td>005</td>
+          </tr>
+          <tr class="active">
+            <td>001</td>
+            <td>002</td>
+            <td>003</td>
+            <td>004</td>
+            <td>005</td>
+          </tr>
+          <tr>
+            <td>001</td>
+            <td>002</td>
+            <td>003</td>
+            <td>004</td>
+            <td>005</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Images</h2>
+
+    <div class="row">
+      <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive"></div>
+    </div>
+    <div class="row">
+      <h2 class="col-md-4 col-xs-6"><small>now with image shapes</small></h2>
+    </div>
+    <div class="row">
+      <p class="col-md-4">rounded</p>
+      <p class="col-md-4">circle</p>
+      <p class="col-md-4">thumbnail</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive img-rounded"></div>
+      <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive img-circle"></div>
+      <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive img-thumbnail"></div>
+    </div>
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Basic form</h2>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <form action="">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="file-upload">File upload</label>
+            <input type="file" id="file-upload" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="submit" value="submit" class="btn btn-default">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Inline form</h2>
+    <div class="row">
+      <div class="col-xs-12">
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="file-upload">File upload</label>
+            <input type="file" id="file-upload" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="submit" value="submit" class="btn btn-default">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Horizontal form</h2>
+    <div class="row">
+      <div class="col-xs-12">
+        <form action="" class="form-horizontal">
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="email">Email Address</label>
+            <div class="col-sm-10">
+              <input type="email" id="email" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="password">Password</label>
+            <div class="col-sm-10">
+              <input type="password" id="password" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="file-upload">File upload</label>
+            <div class="col-sm-10">
+              <input type="file" id="file-upload" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-push-2">
+              <input type="submit" value="submit" class="btn btn-default">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>List group component</h2>
+    
+    li.list-group-item*4>span.badge{Fruits}
+
+    <div class="row">
+      <div class="col-xs-12">
+
+        <ul class="list-group">
+          <li class="list-group-item"><span class="badge">14</span>Fruits</li>
+          <li class="list-group-item disabled">Apple</li>
+          <li class="list-group-item list-group-item-success">Orange</li>
+          <li class="list-group-item list-group-item-danger">Banana</li>
+          <li class="list-group-item list-group-item-warning">Lulo</li>
+          <li class="list-group-item list-group-item-info">Kiwi</li>
+        </ul>
+
+      </div>
+    </div>
+
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Jumbotron</h2>
+    
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="jumbotron">
+          <p>hello there this is a jumbotron, did it get your attention?</p>
+        </div>
+        <p>this is just a normal paragraph to see the difference</p>
+        <div class="well">
+          <p>this is a "well", similar to jumbotron but not as big as it</p>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Dropdowns</h2>
+    by the way...<b>caret</b> is the little "drop-down" triangle <br/><br/>
+    <div class="row">
+      <div class="col-xs-12">
+        
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="mydropdown" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelled-by="mydropdown">
+            <li><a href="#">Some text</a></li>
+            <li><a href="#">Some more text</a></li>
+            <li><a href="#">Something else completely</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+    <hr class="subfeaturette-divider" />
+
+    <h2>Navigation</h2>
+    
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="nav nav-pills">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+        </ul>
+
+        <br/><br/>
+        
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+        </ul>
+
+        <br/><br/>
+
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+        </ul>
+
+        <br/><br/>
+
+        <ul class="nav nav-pills">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <br/><br/>
+
+    <div class="row">
+      <div class="col-xs-3">
+        <ul class="nav nav-pills nav-stacked">
+        
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-9">
+        <h3>here is the content</h3>
+        <p>with some text bla blub</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
   </div>
 
