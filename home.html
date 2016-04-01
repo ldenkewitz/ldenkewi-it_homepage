@@ -17,13 +17,13 @@
 <body>
   
   <div class="container">
-
+  
     <button class="btn btn-lg btn-Success">Default-Button</button>
     <button class="btn btn-Success">Default-Button</button>
     <button class="btn-lg btn-Success">Default-Button</button>
     <button class="btn-Success">Default-Button</button>
     <button>Default-Button</button>
-
+  
     <div class="page-header">
       <h1>Buttons</h1>
     </div>
@@ -36,13 +36,13 @@
       <button type="button" class="btn btn-lg btn-danger">Danger</button>
       <button type="button" class="btn btn-lg btn-link">Link</button>
     </p>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>work with the grid</h2>
-
+  
     .row>.col-lg-1.bg-warning{$}*12
-
+  
     <div class="row">
       <div class="col-lg-1 col-sm-3 bg-warning">1</div>
       <div class="col-lg-1 col-sm-3 bg-info">2</div>
@@ -60,11 +60,11 @@
     </div>
     
     <hr class="subfeaturette-divider" />
-
+  
     <h2>nesting the grid</h2>
     
     .row>.col-lg-6.bg-success>p{this is an outer div}+.col-lg-12.bg-primary>p{this in an inner div}
-
+  
     <div class="row">
       <div class="col-lg-6 bg-success">
         <p>this is an outer div</p>
@@ -73,9 +73,9 @@
         </div>
       </div>
     </div>
-
+  
     <br/>
-
+  
     <div class="row">
       <div class="col-lg-6 bg-success">
         <p>this is an outer div</p>
@@ -86,11 +86,11 @@
         </div>
       </div>
     </div>
-
+  
     <br/>
     watch me in medium size, then i will break! because the inner div has to have the same class (md != lg) as the outer one.
     <br/>
-
+  
     <div class="row">
       <div class="col-lg-6 bg-success">
         <p>this is an outer div</p>
@@ -99,28 +99,28 @@
         </div>
       </div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>push and pull</h2>
   
     .row>.col-md-4.bg-danger{column 1}+.col-md-8.col-success{column 2}
     <br/>
     <p>beginning with the size of MD, the column 1 is shifted (pushed) 8 columns the the right and column 2 is shifted (pulled) 4 columns to the left -> the effekt is used for placing pictures on phones above the text (left side), otherwise the picture is on the right side</p>
-
+  
     <div class="row">
       <div class="col-md-4 col-md-push-8 bg-danger">left - column 1</div>
       <div class="col-md-8 col-md-pull-4 col-success">right - column 2</div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Typography</h2>
-
+  
     .row>.col-xs-12>h1{this is a header}>small{secondary text}^p.lead{this is a leading paragraph}+p{this is a normal paragraph}+p>small{terms and conditions fine print}
-
+  
     difference between the DEL-tag and the S-tag is, that prior means semantically the text is deleted whether the former says the text is incorrect.
-
+  
     <div class="row">
       <div class="col-xs-12">
         <h1>this is a header<small>secondary text</small></h1>
@@ -130,14 +130,14 @@
       </div>
       <div class="col-xs-12">you can
       <mark>highlight</mark>text using <mark>mark</mark>or you can <del>delete text</del> or even <s>strike through text</s></div>
-
+  
       <div class="col-xs-12">
         <p class="text-left">left aligned text</p>
         <p class="text-center">center aligned text</p>
         <p class="text-justify">justify aligned text</p>
         <p class="text-right">right aligned text</p>
       </div>
-
+  
       <div class="col-xs-12">
         <p class="text-lowercase">THIS IS LOWERCASE</p>
       </div>
@@ -153,11 +153,11 @@
         </blockquote>
       </div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Tables</h2>
-
+  
     <div class="row">
       <div class="col-xs-12">
         <table class="table table-hover">
@@ -199,11 +199,11 @@
         </table>
       </div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Images</h2>
-
+  
     <div class="row">
       <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive"></div>
     </div>
@@ -220,11 +220,11 @@
       <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive img-circle"></div>
       <div class="col-md-4 col-xs-6"><img src="images/nz_beauty.jpg" class="img-responsive img-thumbnail"></div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Basic form</h2>
-
+  
     <div class="row">
       <div class="col-xs-12">
         <form action="">
@@ -246,9 +246,9 @@
         </form>
       </div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Inline form</h2>
     <div class="row">
       <div class="col-xs-12">
@@ -271,9 +271,9 @@
         </form>
       </div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Horizontal form</h2>
     <div class="row">
       <div class="col-xs-12">
@@ -304,17 +304,17 @@
         </form>
       </div>
     </div>
-
-
+  
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>List group component</h2>
     
     li.list-group-item*4>span.badge{Fruits}
-
+  
     <div class="row">
       <div class="col-xs-12">
-
+  
         <ul class="list-group">
           <li class="list-group-item"><span class="badge">14</span>Fruits</li>
           <li class="list-group-item disabled">Apple</li>
@@ -323,18 +323,18 @@
           <li class="list-group-item list-group-item-warning">Lulo</li>
           <li class="list-group-item list-group-item-info">Kiwi</li>
         </ul>
-
+  
       </div>
     </div>
-
-
+  
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Jumbotron</h2>
     
     <div class="row">
       <div class="col-xs-12">
-
+  
         <div class="jumbotron">
           <p>hello there this is a jumbotron, did it get your attention?</p>
         </div>
@@ -342,12 +342,12 @@
         <div class="well">
           <p>this is a "well", similar to jumbotron but not as big as it</p>
         </div>
-
+  
       </div>
     </div>
-
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Dropdowns</h2>
     by the way...<b>caret</b> is the little "drop-down" triangle <br/><br/>
     <div class="row">
@@ -364,13 +364,13 @@
             <li><a href="#">Something else completely</a></li>
           </ul>
         </div>
-
+  
       </div>
     </div>
-
-
+  
+  
     <hr class="subfeaturette-divider" />
-
+  
     <h2>Navigation</h2>
     
     <div class="row">
@@ -380,7 +380,7 @@
           <li><a href="#">Profile</a></li>
           <li><a href="#">Messages</a></li>
         </ul>
-
+  
         <br/><br/>
         
         <ul class="nav nav-tabs">
@@ -388,17 +388,17 @@
           <li><a href="#">Profile</a></li>
           <li><a href="#">Messages</a></li>
         </ul>
-
+  
         <br/><br/>
-
+  
         <ul class="nav nav-tabs nav-justified">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Profile</a></li>
           <li><a href="#">Messages</a></li>
         </ul>
-
+  
         <br/><br/>
-
+  
         <ul class="nav nav-pills">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Profile</a></li>
@@ -411,12 +411,12 @@
             </ul>
           </li>
         </ul>
-
+  
       </div>
     </div>
-
+  
     <br/><br/>
-
+  
     <div class="row">
       <div class="col-xs-3">
         <ul class="nav nav-pills nav-stacked">
@@ -431,15 +431,119 @@
         <p>with some text bla blub</p>
       </div>
     </div>
-
-
-
-
-
-
-
+  
+  
+  
+    <hr class="subfeaturette-divider" />
+  
+    <h2>Navbar</h2>
+    copied from http://getbootstrap.com/compinents/#navbar
+  
+    <!-- <nav class="navbar navbar-default navbar-fixed-bottom"> -->
+    <!-- <nav class="navbar navbar-default navbar-static-top"> -->
+    <nav class="navbar navbar-inverse"><nav class="navbar navbar-default">
+      <div class="container-fluid"><div class="container">
+        Brand and toggle get grouped for better mobile display 
+  
+        ok, this is for the responsible mini-menu, to collaps the whole menu on phones etc.
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+  
+        Collect the nav links, forms, and other content for toggling
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>/.navbar-collapse
+      </div>/.container-fluid
+    </nav>
+  
+  
+    <hr class="subfeaturette-divider" />
+  
+    <h2>Collapse</h2>
+  
+    <div class="row">
+      <div class="col-md-3">
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#content">click me</button>
+        <div class="collapse" id="content">
+          <div class="well">Content goes here.</div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <hr class="subfeaturette-divider" />
+  
+    <h2>Models</h2>
+    button[type="button"].btn.btn-primary[data-toggle="modal"][data-target="#mymodal"]{show modal}+.modal.fade[id="mymodal"]>.modal-dialog>.modal-content>.modal-header>he{A title}^.modal-body>p{some content goes in here...}^.modal-footer>.btn.btn-default[type="button"][data-dismiss="modal"]{close me}
+    
+    <div class="row">
+      <div class="col-md-3">
+        
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">show modal</button>
+        <div class="modal fade" id="mymodal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <he>A title</he>
+              </div>
+              <div class="modal-body">
+                <p>some content goes in here...</p>
+              </div>
+              <div class="modal-footer">
+                <div class="btn btn-default" type="button" data-dismiss="modal">close me</div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+  
     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
+  
   </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
