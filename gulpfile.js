@@ -2,9 +2,9 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 
 var paths = {
-   jsSources   : 'js/main.js',
-   cssSources  : 'css/main.css',
-   htmlSources : ['home.html', 'about.html', 'index.html'],
+   jsSources   : 'js/*.js',
+   cssSources  : 'css/*.css',
+   htmlSources : ['*.html'],
    jsTarget    : '/var/www/html/js/',
    cssTarget   : '/var/www/html/css/',
    htmlTarget  : '/var/www/html/'
