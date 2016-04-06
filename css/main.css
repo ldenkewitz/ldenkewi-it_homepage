@@ -1,17 +1,7 @@
 /* 
-.contact-content .glyphicon{ padding: 1px 0; font-size: 24px; color: #b5b5b5 }
 .masthead{border-bottom: 1px solid #b5b5b5; }
 .mastercontent{ margin-bottom: 60px; }
 
-.subfeaturette-divider{ color: #b5b5b5; }
-hr{ color: #b5b5b5; }
-.carousel-control.left{ background-image: none; }
-.carousel-control.right{ background-image: none; }
-
-@media (min-width: 768px) {
-  body{ padding-top: 100px; }
-  .masthead{border-bottom: none; padding-bottom: 10px; }
-}
 
  */
 
@@ -41,10 +31,13 @@ body > footer {
   box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.75);
 }
 
+p, h1, h2, h3, h4, h5 { color: #fff; }
+
+
+
 
 /* General page CSS
 -------------------------------------------------- */
-
 body > .container {
   padding: 60px 15px 0; 
 }
@@ -65,30 +58,25 @@ body > footer > div {
   max-width: 800px;
 }
 
-/* it-page */
-.container-it img { margin-bottom: 20px }
-
-.main-content-home p { margin: 0; }
-.main-content-text-home { margin-top: 10px; text-align: center; font-weight: bolder; font-style: italic; letter-spacing: 0.4em; }
-
 @media (min-width: 768px) {
   #navbar { 
     position: relative;
     float: right; 
   }
-  .main-content-home img { margin: 10px 0 0 30px; }
-  .main-content-text-home { margin-top: 0; text-align: inherit; font-weight: normal; font-style: normal; letter-spacing: 0em; }
   .right { text-align: right; }
   .page-header small { display:none; }
-
-
 }
 
 
 /* Home page CSS
 -------------------------------------------------- */
+.main-content-home p { margin: 0; }
+.main-content-text-home { margin-top: 10px; text-align: center; font-weight: bolder; font-style: italic; letter-spacing: 0.4em; }
 
-
+@media (min-width: 768px) {
+  .main-content-home img { margin: 10px 0 0 30px; }
+  .main-content-text-home { margin-top: 0; text-align: inherit; font-weight: normal; font-style: normal; letter-spacing: 0em; }
+}
 
 /* Now page CSS
 -------------------------------------------------- */
@@ -97,6 +85,7 @@ body > footer > div {
 
 /* IT page CSS
 -------------------------------------------------- */
+.container-it img { margin-bottom: 20px }
 .container-it img:hover { 
   -webkit-box-shadow: 0px 0px 25px rgba(255,255,255,1);
   box-shadow: 0px 0px 25px rgba(255,255,255,1);
@@ -112,5 +101,13 @@ body > footer > div {
 .container-travel { margin-bottom: 70px; }
 
 
+
 /* Contact page CSS
 -------------------------------------------------- */
+.contact-content .glyphicon { font-size: 24px; color: #b5b5b5 }
+.contact-content p { margin-bottom: 0 }
+
+.list-group a { background-color: transparent; }
+.list-group a:hover { background-color: #474747; }
+a.list-group-item { border: 0; border-bottom: 2px solid #ddd; }
+a.list-group-item:last-of-type { border: 0; }
