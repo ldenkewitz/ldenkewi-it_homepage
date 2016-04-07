@@ -1,9 +1,3 @@
-/* 
-.masthead{border-bottom: 1px solid #b5b5b5; }
-.mastercontent{ margin-bottom: 60px; }
-
-
- */
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -70,10 +64,38 @@ body > footer > div {
 
 /* Home page CSS
 -------------------------------------------------- */
-.main-content-home p { margin: 0; }
-.main-content-text-home { margin-top: 10px; text-align: center; font-weight: bolder; font-style: italic; letter-spacing: 0.4em; }
+.main-content-home blockquote { background-color: #3A3A3A; font-size: 1.15em; }
+.main-content-home { margin-bottom: 70px; }
+.main-content-home p { font-size: 0.8em; }
+.tag-header-left-home, .tag-header-bottom-home { margin-left: 25px; opacity: 0.75; color: #000 }
+.tag-header-left-home p, .tag-header-bottom-home p { margin: 0; color: #000 }
+.tag-header-right-home { margin-left: 30px; opacity: 0.75; color: #000; display: none; }
+.tag-header-right-home p { margin: 0; color: #000 }
+/*.main-content-text-home { margin-top: 10px; text-align: center; font-weight: bolder; font-style: italic; letter-spacing: 0.4em; }
+.main-content-text-home p { margin: 0; }
+*/
+.profile-area { width: 100%; height: 300px; background: url(../images/profile_picture.jpg) no-repeat; background-size: cover; }
+.profile-tags { opacity: 0.5; }
+.profile-tags { opacity: 0.5; padding: 0; }
+.sm-right-tags { display: none; }
+.profile-tags p { margin-bottom: 0; }
+
+@media (max-width: 340px) {
+  .profile-tags { padding: 10px 0 0 20px; }
+  .main-content-home p { font-size: 0.73em; }
+}
 
 @media (min-width: 768px) {
+  .tag-header-left-home { margin-left: 20px; }
+  .tag-header-right-home { display: inherit; }
+  .tag-header-bottom-home { display: none; }
+  .profile-area { width: 100%; height: 400px; background: url(../images/profile_picture.jpg) no-repeat; background-size: cover; }
+  .profile-tags { opacity: 0.5; padding: 20px 0; }
+  .profile-tags p { margin-bottom: 16px; }
+  .sm-right-tags { display: inherit; }
+  .sm-right-tags p { margin-bottom: 27px; }
+  .xs-tags { display: none; }
+  .main-content-home p { font-size: 1em; }
   .main-content-home img { margin: 10px 0 0 30px; }
   .main-content-text-home { margin-top: 0; text-align: inherit; font-weight: normal; font-style: normal; letter-spacing: 0em; }
 }
@@ -99,7 +121,8 @@ body > footer > div {
 /* Travel page CSS
 -------------------------------------------------- */
 .container-travel { margin-bottom: 70px; }
-
+.carousel-inner .item { max-height: 400px; }
+/*.content-travel { max-height: 400px; } */
 
 
 /* Contact page CSS
