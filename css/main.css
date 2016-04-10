@@ -61,7 +61,8 @@ body > footer > div {
   .page-header small { display:none; }
 }
 
-
+.panel-default { background-color: #444; }
+.modal-content { background-color: #555; }
 /* Home page CSS
 -------------------------------------------------- */
 .main-content-home blockquote { background-color: #3A3A3A; font-size: 1.15em; }
@@ -107,7 +108,7 @@ body > footer > div {
 
 /* IT page CSS
 -------------------------------------------------- */
-.container-it img { margin-bottom: 20px }
+.container-it img { margin-bottom: 20px; max-width: 220px; }
 .container-it img:hover { 
   -webkit-box-shadow: 0px 0px 25px rgba(255,255,255,1);
   box-shadow: 0px 0px 25px rgba(255,255,255,1);
@@ -116,13 +117,35 @@ body > footer > div {
   .container-it img { margin-bottom: 0 }
 }
 
+/* Study page CSS 
+-------------------------------------------------- */
+/* .container-study .study-title { padding-right: 20px; } */
+.container-study .study-title>a { float: right; font-size: 1.1em; color: #000; }
+.container-study .study-title>a:hover { color: darkblue; }
+.study_description_hagen .glyphicon { padding: 5px; padding-right: 10px; }
+.course-description { padding: 4px 4px 0 4px; background-color: #222; }
+.course-description:last-child { padding-bottom: 4px; }
+.course-description-header { 
+  padding: 10px 15px; border-top: 1px solid #fff; background-color: #666; border-radius: 5px; 
+  border-top-right-radius: 5px; color: #fff; width: 100%; text-align: left; }
+.course-description-header:hover { 
+  cursor: pointer; background: rgb(102,102,102);
+  background: -webkit-linear-gradient(top, rgba(102,102,102,1) 33%,rgba(68,68,68,1) 100%);
+  background: linear-gradient(to bottom, rgba(102,102,102,1) 33%,rgba(68,68,68,1) 100%);
+}
+.course-description-content , .course-description-footer{ padding: 15px 20px; background-color: #555; }
+.course-description-content ol { margin: 0; }
+.course-description-footer { border-top: 1px solid #000; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.modal-header p { margin: 0; }
 
-
+.diplom-info-content blockquote { font-size: 1em; }
+    
 /* Travel page CSS
 -------------------------------------------------- */
 .container-travel { margin-bottom: 70px; }
 .carousel-inner .item { max-height: 400px; }
 /*.content-travel { max-height: 400px; } */
+
 
 
 /* Contact page CSS
