@@ -5,9 +5,9 @@ var paths = {
    jsSources   : 'js/*.js',
    cssSources  : 'css/*.css',
    htmlSources : ['*.html'],
-   jsTarget    : '/var/www/html/js/',
-   cssTarget   : '/var/www/html/css/',
-   htmlTarget  : '/var/www/html/'
+   jsTarget    : '/var/www/html/ldenkewi/js/',
+   cssTarget   : '/var/www/html/ldenkewi/css/',
+   htmlTarget  : '/var/www/html/ldenkewi/'
 };
 
 gulp.task('logStart', function() {
